@@ -104,7 +104,6 @@ G F <BR>
 ['0', '1', '2', '3', '4']
 <hr>
 <h3>Code:</h3>
-<hr>
 ```
 from collections import deque
 from collections import defaultdict
@@ -135,7 +134,7 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 ```
-<hr>
+
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
