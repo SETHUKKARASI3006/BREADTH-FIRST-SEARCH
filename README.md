@@ -105,7 +105,8 @@ G F <BR>
 <hr>
 <h3>Code:</h3>
 <hr>
-```python
+```
+
 from collections import deque
 from collections import defaultdict
 
@@ -139,7 +140,6 @@ path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-
 
 <hr>
 <h3>Result:</h3>
