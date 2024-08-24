@@ -104,9 +104,13 @@ G F <BR>
 ['0', '1', '2', '3', '4']
 <hr>
 <h3>Code:</h3>
-'''
+<hr>
+
+```
 from collections import deque
 from collections import defaultdict
+
+
 def bfs(graph,start,visited,path):
     queue = deque()
     path.append(start)
@@ -120,7 +124,9 @@ def bfs(graph,start,visited,path):
                 path.append(neighbor)
                 queue.append(neighbor)
                 visited[neighbor] = True
+    
     return path
+
 graph = defaultdict(list)
 v,e = map(int,input().split())
 for i in range(e):
@@ -128,13 +134,15 @@ for i in range(e):
     u, v = input().split()
     graph[u].append(v)
     graph[v].append(u)
+
 start = '0'
 path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-'''
+```
 
+<hr>
 <h3>Result:</h3>
 <hr>
 <p>Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.</p>
