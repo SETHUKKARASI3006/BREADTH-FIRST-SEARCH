@@ -104,7 +104,7 @@ G F <BR>
 ['0', '1', '2', '3', '4']
 <hr>
 <h3>Code:</h3>
-```
+~~~
 from collections import deque
 from collections import defaultdict
 def bfs(graph,start,visited,path):
@@ -133,7 +133,7 @@ path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-```
+~~~
 
 <h3>Result:</h3>
 <hr>
